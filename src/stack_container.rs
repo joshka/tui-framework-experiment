@@ -10,7 +10,7 @@ use std::fmt;
 /// ```rust
 /// use ratatui::prelude::*;
 /// use ratatui::widgets::*;
-/// use ratatui_widgets::StackContainer;
+/// use tui_framework_experiment::StackContainer;
 ///
 /// let mut stack = StackContainer::horizontal();
 /// stack.push(Box::new(Paragraph::new("Left")), Constraint::Fill(1));

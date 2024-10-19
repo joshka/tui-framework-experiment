@@ -2,8 +2,8 @@ use std::io::{self};
 
 use color_eyre::Result;
 use ratatui::{prelude::*, style::palette::tailwind, symbols::border::*, widgets::*};
-use ratatui_widgets::events::*;
 use strum::{Display, EnumIter, IntoEnumIterator};
+use tui_framework_experiment::events::*;
 
 use crate::tabs::*;
 
@@ -133,7 +133,7 @@ impl App {
     }
 
     fn title(&self) -> impl Widget {
-        Line::raw("ratatui-widgets")
+        Line::raw("tui-framework-experiment")
             .style(tailwind::SLATE.c300)
             .centered()
     }

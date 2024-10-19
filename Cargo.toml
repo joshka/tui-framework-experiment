@@ -1,10 +1,10 @@
 [package]
-name = "ratatui-widgets"
-version = "0.2.1"
+name = "tui-framework-experiment"
+version = "0.3.0"
 authors = ["Joshka"]
-description = "A set of widgets for the ratatui terminal UI library"
+description = "An set of harmonious Ratatui widgets with a goal of building a proper widget framework."
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/joshka/ratatui-widgets"
+repository = "https://github.com/joshka/tui-framework-experiment"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

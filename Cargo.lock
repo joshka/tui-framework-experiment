@@ -1104,24 +1104,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "ratatui-widgets"
-version = "0.2.1"
-dependencies = [
- "bitflags 2.6.0",
- "color-eyre",
- "crossterm",
- "derive_builder",
- "itertools 0.13.0",
- "rand",
- "ratatui",
- "rstest",
- "strum",
- "termion",
- "termwiz",
- "thiserror",
-]
-
-[[package]]
 name = "redox_syscall"
 version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1601,6 +1583,24 @@ dependencies = [
  "sharded-slab",
  "thread_local",
  "tracing-core",
+]
+
+[[package]]
+name = "tui-framework-experiment"
+version = "0.3.0"
+dependencies = [
+ "bitflags 2.6.0",
+ "color-eyre",
+ "crossterm",
+ "derive_builder",
+ "itertools 0.13.0",
+ "rand",
+ "ratatui",
+ "rstest",
+ "strum",
+ "termion",
+ "termwiz",
+ "thiserror",
 ]
 
 [[package]]

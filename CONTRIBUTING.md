@@ -1,13 +1,13 @@
 # Contribution guidelines
 
-First off, thank you for considering contributing to ratatui-widgets.
+First off, thank you for considering contributing to tui-framework-experiment.
 
 If your contribution is not straightforward, please first discuss the change you wish to make by
 creating a new issue before making the change.
 
 ## Reporting issues
 
-Before reporting an issue on the [issue tracker](https://github.com/joshka/ratatui-widgets/issues),
+Before reporting an issue on the [issue tracker](https://github.com/joshka/tui-framework-experiment/issues),
 please check that it has not already been reported by searching for some related keywords.
 
 ## Pull requests
@@ -54,8 +54,8 @@ A specification for adding human and machine readable meaning to commit messages
 This is no different than other Rust projects.
 
 ```shell
-git clone https://github.com/joshka/ratatui-widgets
-cd ratatui-widgets
+git clone https://github.com/joshka/tui-framework-experiment
+cd tui-framework-experiment
 cargo test
 ```
 

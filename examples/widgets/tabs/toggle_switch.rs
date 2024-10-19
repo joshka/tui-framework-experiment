@@ -1,6 +1,6 @@
 use ratatui::{prelude::*, style::palette::tailwind};
-use ratatui_widgets::toggle_switch::ToggleSwitch;
-use ratatui_widgets::{
+use tui_framework_experiment::toggle_switch::ToggleSwitch;
+use tui_framework_experiment::{
     events::{self, *},
     toggle_switch::State,
 };

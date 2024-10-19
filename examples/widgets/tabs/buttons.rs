@@ -1,5 +1,5 @@
 use ratatui::{prelude::*, style::palette::tailwind};
-use ratatui_widgets::{
+use tui_framework_experiment::{
     button,
     events::{self, *},
     Button,

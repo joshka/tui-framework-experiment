@@ -1,8 +1,8 @@
 use rand::Rng;
 use ratatui::prelude::*;
 use ratatui::widgets::*;
-use ratatui_widgets::events::{EventHandler, Key, KeyPressedEvent, MouseEvent};
-use ratatui_widgets::StackContainer;
+use tui_framework_experiment::events::{EventHandler, Key, KeyPressedEvent, MouseEvent};
+use tui_framework_experiment::StackContainer;
 
 #[derive(Debug)]
 pub struct StackTab {

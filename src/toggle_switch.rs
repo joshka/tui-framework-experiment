@@ -16,7 +16,7 @@ use ratatui::{
 ///
 /// ```rust
 /// use ratatui::widgets::Widget;
-/// use ratatui_widgets::toggle_switch::{ToggleSwitch, State};
+/// use tui_framework_experiment::toggle_switch::{ToggleSwitch, State};
 ///
 /// # fn draw(frame: &mut ratatui::Frame) {
 /// let toggle_switch = ToggleSwitch::new("Toggle me", State::Off);
