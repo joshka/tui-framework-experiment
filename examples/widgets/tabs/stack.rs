@@ -77,14 +77,14 @@ impl StackTab {
     fn random_widget(&mut self) -> (Box<dyn WidgetRef>, Constraint) {
         let text = format!("Item {}", self.counter);
 
-        let mut rng = rand::thread_rng();
+        let mut rng = rand::rng();
 
-        let color_index = rng.gen_range(0..=255);
+        let color_index = rng.random_range(0..=255);
         let style = Style::new()
             .bg(Color::Indexed(color_index))
             .fg(Color::Black);
 
-        let choice = rng.gen_range(0..3);
+        let choice = rng.random_range(0..3);
 
         let widget: Box<dyn WidgetRef> = match choice {
             0 => Box::new(Paragraph::new(format!("{}\n(paragraph)", text)).style(style)),
