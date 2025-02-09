@@ -20,7 +20,7 @@ use ratatui::{
 ///
 /// # fn draw(frame: &mut ratatui::Frame) {
 /// let toggle_switch = ToggleSwitch::new("Toggle me", State::Off);
-/// frame.render_widget(toggle_switch, frame.area());
+/// frame.render_widget(&toggle_switch, frame.area());
 /// # }
 /// ```
 #[derive(Debug, Clone)]
