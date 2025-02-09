@@ -1,6 +1,6 @@
 [package]
 name = "tui-framework-experiment"
-version = "0.3.0"
+version = "0.4.0"
 authors = ["Joshka"]
 description = "An set of harmonious Ratatui widgets with a goal of building a proper widget framework."
 license = "MIT OR Apache-2.0"
